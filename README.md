@@ -1,2 +1,2 @@
-# MBA-Placement-Using-ML
+# MBA-Campus-Placement
 Predicting Placement of a person.
