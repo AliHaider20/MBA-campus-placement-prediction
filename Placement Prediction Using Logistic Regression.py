@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score,recall_score,precision_score
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 df = pd.read_csv('cleaned_placement.csv')
@@ -15,7 +15,7 @@ print(Y.head())
 # spliting the data into 
 x_train,x_test,y_train,y_test = train_test_split(X,Y,train_size=0.9)
 
-clf = LogisticRegression()
+clf = RandomForestClassifier()
 
 # Training Phase 
 clf.fit(x_train,y_train)
