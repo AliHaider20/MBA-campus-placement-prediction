@@ -1,2 +1,2 @@
 # MBA-Campus-Placement
-Predicting Placement of a person.
+Predicting if a person will get placed after completing MBA degree.
