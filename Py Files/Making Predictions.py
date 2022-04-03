@@ -4,10 +4,8 @@ import pickle
 clf = pickle.load(open('Model','rb'))
 
 # Predicting if a user gets the job 
-# per1 ssc_p=68,hsc_p=66,degree_p=90,mba_p=85,work_ex=0,etest_p=79
+# Person 1: ssc_p=68,hsc_p=66,degree_p=90,mba_p=85,work_ex=0,etest_p=79
 
-# Creating a list to store the values
-# Remember to create a 2D list because model doesn't accepts 1D array
 per_1 = [[68,66,90,85,0,79]]
 per_2 = [[68,70,85,96,1,67]]
 
